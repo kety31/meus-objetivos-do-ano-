@@ -9,4 +9,19 @@
 body{
     background-color: var(--cor-de-fundo);
     color: var(--branco);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+    .conteudo-principal{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        max-width: 1200px;
+        width: 100%;
+        margin: 0 auto;
+    }
+.titulo-principal{
+    text-align: center;
+    width: 100%;
+    font-size: 32px;
+    
 }
